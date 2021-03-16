@@ -1,0 +1,34 @@
+{
+  "name": "excel-spa",
+  "version": "1.0.0",
+  "description": "Pure JS Excel SPA App",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltvnkvtl/excel-spa.git"
+  },
+  "keywords": [
+    "SPA",
+    "JS"
+  ],
+  "author": "Litovkin Vitaly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltvnkvtl/excel-spa/issues"
+  },
+  "homepage": "https://github.com/ltvnkvtl/excel-spa#readme",
+  "private": true,
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.3.9",
+    "webpack": "^5.26.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
